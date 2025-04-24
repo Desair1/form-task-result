@@ -40,6 +40,10 @@ body {
 	background-color: #3e8e41;
 }
 
+.registration__button-disabled {
+	cursor: not-allowed;
+}	
+
 .formGroup {
 	margin-bottom: 15px;
 }
@@ -64,4 +68,8 @@ body {
 	outline: none;
 	border-color: #4caf50;
 	box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.formGroup__input-error {
+	color: red;
 }
